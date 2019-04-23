@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:title="@string/nav_list1">
+        <menu>
+            <item
+                android:menuCategory="container"
+                android:id="@+id/nav_disease_1"
+                android:title="@string/disease_1"
+                android:icon="@drawable/di_icon"/>
+            <item
+                android:id="@+id/nav_disease_2"
+                android:menuCategory="container"
+                android:title="@string/disease_2"
+                android:icon="@drawable/ic_br_icon"/>
+        </menu>
+    </item>
+
+    <item android:title="@string/nav_list3">
+        <menu>
+            <item
+                android:menuCategory="container"
+                android:id="@+id/nav_fun_1"
+                android:title="@string/fun_1"
+                android:icon="@drawable/sa_icon"/>
+            <item
+                android:id="@+id/nav_fun_2"
+                android:menuCategory="container"
+                android:title="@string/fun_2"
+                android:icon="@drawable/mr_icon"/>
+        </menu>
+    </item>
+
+    <item android:title="@string/communicate_tag">
+        <menu>
+            <item
+                android:id="@+id/nav_contact_us"
+                android:icon="@drawable/ic_nav_contact_us"
+                android:title="@string/contact_us" />
+            <item
+                android:id="@+id/nav_about"
+                android:icon="@drawable/ic_nav_about"
+                android:title="@string/about" />
+        </menu>
+    </item>
+
+</menu>
